@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <header>
+        <h2 class="logo" style="font-size: 1.4em; font-family: 'Poppins', sans-serif;">Pratapgad.</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="index.html">Back</a>
+        </nav>
+    </header>
+
+
+    <div class="home">
+        <p><h2 class="size">The Maratha ruler Shivaji assigned Moropant Trimbak Pingle, his prime minister, to undertake the construction of this fort in order to defend the banks of the Nira and the Koyna rivers, and to defend the Par pass. It was completed in 1656.
+            The Battle of Pratapgad between Shivaji and Afzal Khan, a general of Adil Shahi dynasty, was fought below the ramparts of this fort on 10 November 1659. This was the first major test of the fledgling kingdom's army, and set the stage of the establishment of the Maratha empire.
+            Pratapgad continued to be involved in regional politics.[until when?] Sakharam Bapu Bokil, a well-known minister of Pune, was confined by his rival Nana Phadnis in Pratapgad in 1778. He was later moved from fort to fort until he died at Raigad. In 1796, Nana Phadnis, while escaping from the intrigues of Daulatrao Shinde and his minister Baloba, assembled a strong garrison in Pratapgad before heading to Mahad. In 1818, as part of the Third Anglo-Maratha War, Pratapgad was surrendered to the East India company.</h2></p>
+            
+    </div>
+
+    
+    <style>
+       
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+.home {
+    padding: 35px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(178, 211, 255, 0);
+    backdrop-filter: blur(2px);
+    margin-top: 77px;
+}
+
+h2 {
+    color: #cd4400db;
+    margin-bottom: 20px;
+    background: blur (20px);
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+p + p {
+    margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+    .size{
+        
+        font-size: 80%;
+    }
+}
+
+
+audio {
+    width: 20%; 
+    position: fixed;
+    bottom: 0;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #fff; 
+    border-top: 1px solid #969696; 
+    padding: 10px; 
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+audio::-webkit-media-controls-panel {
+    background-color: #6ea4bd;
+    color: #fff; 
+    border-radius: 10px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #02fc0aaf; 
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-timeline {
+    background-color: transparent;
+}
+
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff; 
+}
+
+
+h2.size {
+    opacity: 0;
+    animation: fadeIn 3s ease forwards;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+    </style>
+    <audio src="Aarambh-Hai-Prachand-x-Polozhenie.mp3" controls preload="auto"></audio>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</body>
+</html>
